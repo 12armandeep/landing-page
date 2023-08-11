@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARMAN'S GYM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("photo/img2.jpg");
+            background-size: 100% 854px;
+            background-repeat: no-repeat;
+            /* height: 4000px; 
+            width: 3500px; */
+        }
+
+        .left {
+            position: absolute;
+            display: inline-block;
+            left: 34px;
+            top: 15px;
+            /* border: 2px solid red; */
+
+
+        }
+
+        .left img {
+            height: 60px;
+            width: 60px;
+            margin-left: 20px;
+
+        }
+
+        .left div {
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 18px auto;
+            /* border: 2px solid yellow; */
+
+
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            right: 34px;
+            top: 20px;
+            /* border: 2px solid orange; */
+
+
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            margin: 80px auto;
+            padding: 80px;
+            width: 770px;
+            border-radius: 28px;
+            height: 300px;
+
+        }
+
+        .container h1 {
+            color: white;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 0px;
+        }
+
+        .bts {
+            margin: 0px 9px;
+            padding: 3px 4px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+
+
+        }
+
+        .bts:hover {
+            background-color: grey;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .form-group {
+            text-align: center;
+
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 334px;
+            padding: 9px;
+            border: 2px solid black;
+            margin: 5px auto;
+            font-size: 21px;
+            border-radius: 24px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        .btn {
+            border: 2px solid red;
+            border-radius: 24px;
+            background-color: black;
+            color: white;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+
+
+
+        }footer{
+           
+            padding:0px;
+            text-align: center;
+            width: 100%;
+            
+        }
+        marquee{
+            font-size:60px;
+            color: white;
+        }
+    
+       
+        
+    </style>
+</head>
+
+<body>
+    <!-- <img src="photo/img2.jpg" alt="#"  height=4000px; 
+    width=3500px background-size=1550px 800px background-repeat: no-repeat
+    > -->
+
+
+
+    <header class="header">
+
+        <div class="left">
+            <img src="photo/download.jpeg" alt="">
+
+
+            <div>Arman's gym</div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">EXERCISE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="bts">Call us now</button>
+            <button class="bts">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM IN MULLANPUR</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="Number" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <!-- <label for="Gender">gender</label> -->
+                <input type="text" name="Name" placeholder="enter your gender">
+                <!-- <select name="Name">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="other">other</option>
+                </select> -->
+            </div>
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="number" name="Number" placeholder="enter your contact no">
+            </div>
+            <div class="form-group"><button class="btn">Sumbit</button>
+            </div>
+            <div class="form-group"><button type="reset" class="btn">Reset</button>
+            </div>
+           
+
+
+
+
+        </form>
+        
+    </div>
+    <footer>
+        <div class="waves">
+           <marquee behavior="scroll" scrollamount="12" direction="left">This is the landing page of my website.</marquee>
+            
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
